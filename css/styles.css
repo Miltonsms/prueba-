@@ -1,0 +1,22 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+.home-section{
+	height: auto !important;
+	min-height: 100%;
+	overflow: hidden;
+	padding-top: 50px;
+}
+.about-section{
+	height: auto !important;
+	min-height: 100%;
+	overflow: hidden;
+	padding-top: 50px;
+}
+.contact-section{
+	height: auto !important;
+	min-height: 100%;
+	overflow: hidden;
+	padding-top: 50px;
+}

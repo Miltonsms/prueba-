@@ -1,0 +1,53 @@
+body {
+    background-color: #555555;
+}
+
+.vevo {
+   margin-left: 50px;
+   margin-top: 30px;
+   color: white;
+}
+
+.up {
+	margin-bottom: 100px;
+}
+
+.top {
+	background: #6E6E6E url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+}
+
+.list-group-item {
+	background-color: #2E2E2E;
+	border: #222222;
+	color: white;
+}
+
+.panel {
+	background-color: #222222;
+	color: white;
+}
+
+.panel-body {
+	background-color: #2E2E2E;
+}
+
+.navbar-text {
+	color: white;
+}
+
+.dropdown-menu {
+	background-color: #555555;
+}
+
+td {
+	border: 2px solid #222222;
+	text-align: center;
+}
+
+.cent {
+	margin: auto;
+}
+
+a {
+	color: white;
+}

@@ -1,111 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
- <!-- Jquery -->
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"> </script>
- <!-- Bootstrap core CSS -->
- <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
- <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
- <link href="css/styles.css" rel="stylesheet">
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cognist</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="/home/hp/Escritorio/jQuery-Parallax-master/js/script.js"></script>
 </head>
-<bodyb id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-	<div class="navbar navbar-default navbar-fixed-top" role = "navigation">
-		<div class="container">
-			<div class="navbar-header page-scroll">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
-					<span  class="sr-only" >toggle navigation</span>
-					<span  class="icon-bar" >toggle navigation</span>
-					<span  class="icon-bar" >toggle navigation</span>
-					<span  class="icon-bar" >toggle navigation</span>
-				</button>
-				<a class="navbar-brand" href="#"></a>
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
- <!-- Jquery -->
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"> </script>
- <!-- Bootstrap core CSS -->
- <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
- <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
- <link href="css/styles.css" rel="stylesheet">
 
-</head>
-<bodyb id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-	<div class="navbar navbar-default navbar-fixed-top" role = "navigation">
-		<div class="container">
-			<div class="navbar-header page-scroll">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
-					<span  class="sr-only" >toggle navigation</span>
-					<span  class="icon-bar" >toggle navigation</span>
-					<span  class="icon-bar" >toggle navigation</span>
-					<span  class="icon-bar" >toggle navigation</span>
-				</button>
-				<a class="navbar-brand" href="#"></a>
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li class="page-scroll"><a href="#home">Home</a></li>
-					<li class="page-scroll"><a href="#about">about</a></li>
-					<li class="page-scroll"><a href="#contact">Contact</a></li>				
-				</ul>
-			</div>
-		</div>
-	</div>
-	<section id="home" class="home-section">
-		das ist die home seite
-	</section>
-	<section id="about" class="about-section">
-		das ist about
-	</section>
-	<section id ="contact" class="contact-section">
-		das ist contact
-	</section>
-
-
-
-					<li class="page-scroll"><a href="#about">about</a></li>
-					<li class="page-scroll"><a href="#contact">Contact</a></li>				
-				</ul>
-			</div>
-		</div>
-	</div>
-	<section id="home" class="home-section">
-		das ist die home seite
-	</section>
-	<section id="about" class="about-section">
-		das ist about
-	</section>
-	<section id ="contact" class="contact-section">
-		das ist contact
-	</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<body>
+	<ul id="nav">
+		<li><a href="#intro" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+	    <li><a href="#second" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+	    <li><a href="#third" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+	    <li><a href="#fifth" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+	</ul>
 	
-	<!--Javascript-->
-	<script src="js/script.js"></script>
-	<!-- Bootstrap -->
-	<script src="bootstrap/js/bootstrap.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-</body>
+	<div id="intro"><!--PRIMER CUADRO-->
+	
 
+	</div> <!--#intro-->
+	
+	<div id="second"> <!--SEGUNDO CUADRO-->
+		
+	    
+	</div> <!--#second-->
+	
+	<div id="third"> <!--TERCER CUADRO-->
+
+	</div> <!--#third-->
+	
+	<div id="fifth"> <!--ULTIMO CUADRO-->
+
+	</div> <!--#fifth-->
+</body>
 </html>

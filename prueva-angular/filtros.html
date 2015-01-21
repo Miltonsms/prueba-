@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cognist</title>
+		 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
+		<script src="/home/hp/Desktop/prueba-/prueva-angular/js/filtros.js"></script>
+	</head>
+
+	<body ng-pp>
+	<div class="container" ng-controller="ControladoresFiltros"> 
+		<h1>Filtros Nativos De Angular </h1>
+		<hr>
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<div class="input-group">
+					<span classs="input-group-addon"><i class="glyphicon glyphicon-search" ></i></span>
+					<input type="text" class="form-control" placeholder="buscare Empleado">
+				</div>
+			</div>
+			</div>
+			<div class="panel-body">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>Nombre/s</th>
+							<th>Apellido Paterno</th>
+							<th>Apellido Materno</th>
+							<th>primer dia de trabajo</th>
+							<th>Telefono</th>
+							<th>Salario</th>
+							<th>Bono</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="empleado in empleados">
+							<td>{{empleado.nombre}}</td>
+							<td>{{empleado.paterno}}</td>
+							<td>{{empleado.materno}}</td>
+							<td>{{empleado.primerDia}}</td>
+							<td>{{empleado.telefono}}</td>
+							<td>{{empleado.salario}}</td>
+							<td>% {{empleado.bono}}</td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		
+	</div> 
+	</body>
+</html>
